@@ -78,7 +78,7 @@ def make_dir(path: Path, name: str):
 
 def validate_user_home_dir(path_: str, name: str):
      
-     USER_PATH = fr"C:\Users\iruiz1\Desktop\FTP SERVER\Users"
+     USER_PATH = Path.cwd() / "FTP SERVER" / "Users"
      
      if path_ != USER_PATH:
           raise PathError
@@ -89,7 +89,7 @@ def validate_user_home_dir(path_: str, name: str):
 
 def validate_admin_home_dir(path_: str, name: str):
      
-    USER_PATH = r"C:\Users\iruiz1\Desktop\FTP SERVER\Admins"
+    USER_PATH = Path.cwd() / "FTP SERVER" / "Admins"
      
     if path_ != USER_PATH:
           raise PathError

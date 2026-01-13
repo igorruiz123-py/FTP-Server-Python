@@ -14,9 +14,8 @@ class DataBase:
         self.DB_PATH = Path(__file__).parent / "FTP_data_base.db"
         self.TABLE_NAME_USERS = "users"
         self.TABLE_NAME_ADMINS = "admins"
-        self.USER_DIR_PATH = Path(r"C:\Users\iruiz1\Desktop\FTP SERVER\Users")
-        self.ADMIN_DIR_PATH = Path(r"C:\Users\iruiz1\Desktop\FTP SERVER\Admins")
-
+        self.USER_DIR_PATH = Path.cwd() / "FTP SERVER" / "Users"
+        self.ADMIN_DIR_PATH = Path.cwd() / "FTP SERVER" / "Admins"
 
 
     def open_connection(self):
@@ -78,7 +77,7 @@ class DataBase:
 
 
 
-    def insert_user(self, name: str, password: str, perms: str, home_dir: str):
+    def insert_user(self, name, password, perms, home_dir):
 
         self.open_connection()
 
@@ -103,7 +102,7 @@ class DataBase:
         self.close_connection()
 
 
-    def insert_admin(self, name: str, password: str, perms: str, home_dir: str):
+    def insert_admin(self, name, password, perms, home_dir):
          
          self.open_connection() 
 
@@ -218,12 +217,12 @@ class DataBase:
 
         rows = self.cursor.fetchall()
 
-        with open(r"C:\Users\iruiz1\Desktop\FTP SERVER\Admins\Logs\reports\report.log", "w", encoding="UTF-8") as file:
+        with open(Path.cwd() / "FTP SERVER" / "Admins" / "Logs" / "reports" / "report.log", "w", encoding="UTF-8") as file:
             for user_name, user_password, user_permission, user_home_dir in rows:
                 file.write(f"User name: {user_name}\nUser password: {user_password}\nUser permission: {user_permission}\nUser home directory: {user_home_dir}\n")
                 file.write("-" * 70 + "\n")
 
-        print(r"report.log created at: C:\Users\iruiz1\Desktop\FTP SERVER\Admins\Logs\reports")
+        print(f"report.log created at: {Path.cwd()}")
 
         self.close_connection()
 

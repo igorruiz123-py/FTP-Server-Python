@@ -1,0 +1,131 @@
+>>> ******** MBUPDATR starting! -- 2025-11-25T11:34:24-03:00
+2025-11-25T11:34:24.225870-03:00: MBUPDATR version: 3.1.0.561
+2025-11-25T11:34:24.225870-03:00: programPath: C:\Users\BAPX.IRUIZ1\Downloads\Malwarebytes_Breach_Remediation_4.3.16.174\Malwarebytes_Breach_Remediation_4.3.16.174\Windows\Remediation
+2025-11-25T11:34:24.225870-03:00: configPath : C:\Users\BAPX.IRUIZ1\Downloads\Malwarebytes_Breach_Remediation_4.3.16.174\Malwarebytes_Breach_Remediation_4.3.16.174\Windows\Remediation\config\UpdateControllerConfig.json
+2025-11-25T11:34:24.225870-03:00: product code is: unknown
+2025-11-25T11:34:24.225870-03:00: program version: 
+2025-11-25T11:34:24.228396-03:00: current CU ver : 1.0.0
+2025-11-25T11:34:24.228396-03:00: dataDirPath: C:\Users\BAPX.IRUIZ1\Downloads\Malwarebytes_Breach_Remediation_4.3.16.174\Malwarebytes_Breach_Remediation_4.3.16.174\Windows\Remediation
+2025-11-25T11:34:24.228396-03:00: Enter DoDbUpdateMaintenance
+2025-11-25T11:34:24.251327-03:00: Crypto.cpp:1176: 13 certificates already installed
+2025-11-25T11:34:24.251327-03:00: Error 1060 calling OpenServiceW
+2025-11-25T11:34:24.251327-03:00: Service is not running!
+2025-11-25T11:34:24.251327-03:00:  : Error connecting to service
+2025-11-25T11:34:24.251327-03:00: DUMaintenance.cpp:36: Enter PerformDUMaintenance
+2025-11-25T11:34:24.251327-03:00: Error 1060 calling OpenServiceW
+2025-11-25T11:34:24.251327-03:00: Service is not running!
+2025-11-25T11:34:24.251327-03:00: DUMaintenance.cpp:530: Enter SetMURState
+2025-11-25T11:34:24.251327-03:00: DUMaintenance.cpp:606: Enter MeterLFS
+2025-11-25T11:34:24.251327-03:00: FileSystemUtils_Win32.cpp:1192: Error getting version for C:\Users\BAPX.IRUIZ1\Downloads\Malwarebytes_Breach_Remediation_4.3.16.174\Malwarebytes_Breach_Remediation_4.3.16.174\Windows\Remediation\RTPControllerImpl.dll, O sistema não pode encontrar o arquivo especificado.  (0x2)
+2025-11-25T11:34:24.251327-03:00: DUMaintenance.cpp:946: Enter MeterLivePEAMSI
+2025-11-25T11:34:24.251327-03:00: DUMaintenance.cpp:950: Failed to get MBAMService instance
+2025-11-25T11:34:24.251327-03:00: DUMaintenance.cpp:1027: Enter EnableDisableDriverBlock
+2025-11-25T11:34:24.251327-03:00: DUMaintenance.cpp:1150: Enter MeterLiveScriptAMSI
+2025-11-25T11:34:24.251327-03:00: DUMaintenance.cpp:1154: Failed to get MBAMService instance
+2025-11-25T11:34:24.251327-03:00: OfflineRegistryLibrary.cpp:37: Failed to verify the file! Cannot load the offline registry library support dll! FilePath=[C:\Users\BAPX.IRUIZ1\Downloads\Malwarebytes_Breach_Remediation_4.3.16.174\Malwarebytes_Breach_Remediation_4.3.16.174\Windows\Remediation\updatrpkg\\offreg.dll].
+2025-11-25T11:34:24.251327-03:00: OfflineRegistryLibrary.cpp:37: Failed to verify the file! Cannot load the offline registry library support dll! FilePath=[C:\Users\BAPX.IRUIZ1\Downloads\Malwarebytes_Breach_Remediation_4.3.16.174\Malwarebytes_Breach_Remediation_4.3.16.174\Windows\Remediation\updatrpkg\\offreg.dll].
+2025-11-25T11:34:24.448779-03:00: DUMaintenance.cpp:113: 'ScanControllerImpl.dll' => 3.2.0.1546
+2025-11-25T11:34:24.640641-03:00: DUMaintenance.cpp:113: 'CleanControllerImpl.dll' => 3.2.0.806
+2025-11-25T11:34:24.776833-03:00: DUMaintenance.cpp:113: 'CloudControllerImpl.dll' => 3.2.0.344
+2025-11-25T11:34:24.776833-03:00: AMSIMaintainer.cpp:131: Enter meter 'mshta.exe' monitoring
+2025-11-25T11:34:24.776833-03:00: AMSIMaintainer.cpp:136: Failed to get MBAMService instance
+2025-11-25T11:34:24.776833-03:00: AMSIMaintainer.cpp:131: Enter meter 'w3wp.exe' monitoring
+2025-11-25T11:34:24.776833-03:00: AMSIMaintainer.cpp:136: Failed to get MBAMService instance
+2025-11-25T11:34:24.776833-03:00: AMSIMaintainer.cpp:67: Enter MeterAMSIPhase5
+2025-11-25T11:34:24.776833-03:00: AMSIMaintainer.cpp:72: Failed to get MBAMService instance
+2025-11-25T11:34:24.776833-03:00: AMSIMaintainer.cpp:238: Enter EnableUndetectedPETelemetry
+2025-11-25T11:34:24.776833-03:00: AMSIMaintainer.cpp:243: Failed to get MBAMService instance
+2025-11-25T11:34:24.776833-03:00: ARWBypassMaintainer.cpp:29: Enter MeterARWBypass1
+2025-11-25T11:34:24.776833-03:00: ARWBypassMaintainer.cpp:34: Failed to get MBAMService instance
+2025-11-25T11:34:24.776833-03:00: ARWBypassMaintainer.cpp:56: Enter MeterARWBypass2
+2025-11-25T11:34:24.776833-03:00: ARWBypassMaintainer.cpp:61: Failed to get MBAMService instance
+2025-11-25T11:34:24.776833-03:00: DDSHelperMaintainer.cpp:21: Enter MeterDDSHelper
+2025-11-25T11:34:24.776833-03:00: DDSHelperMaintainer.cpp:26: Failed to get MBAMService instance
+2025-11-25T11:34:24.776833-03:00: All done.
+
+>>> ******** MBUPDATR starting! -- 2025-11-25T11:34:26-03:00
+2025-11-25T11:34:26.830330-03:00: MBUPDATR version: 3.1.0.561
+2025-11-25T11:34:26.830330-03:00: programPath: C:\Users\BAPX.IRUIZ1\Downloads\Malwarebytes_Breach_Remediation_4.3.16.174\Malwarebytes_Breach_Remediation_4.3.16.174\Windows\Remediation
+2025-11-25T11:34:26.830330-03:00: configPath : C:\Users\BAPX.IRUIZ1\Downloads\Malwarebytes_Breach_Remediation_4.3.16.174\Malwarebytes_Breach_Remediation_4.3.16.174\Windows\Remediation\config\UpdateControllerConfig.json
+2025-11-25T11:34:26.830330-03:00: product code is: unknown
+2025-11-25T11:34:26.830330-03:00: program version: 
+2025-11-25T11:34:26.836737-03:00: current CU ver : 1.0.0
+2025-11-25T11:34:26.836737-03:00: dataDirPath: C:\Users\BAPX.IRUIZ1\Downloads\Malwarebytes_Breach_Remediation_4.3.16.174\Malwarebytes_Breach_Remediation_4.3.16.174\Windows\Remediation
+2025-11-25T11:34:26.836737-03:00: Enter DoDbUpdateMaintenance
+2025-11-25T11:34:26.853968-03:00: Crypto.cpp:1176: 13 certificates already installed
+2025-11-25T11:34:26.865745-03:00: Error 1060 calling OpenServiceW
+2025-11-25T11:34:26.865745-03:00: Service is not running!
+2025-11-25T11:34:26.865745-03:00:  : Error connecting to service
+2025-11-25T11:34:26.865745-03:00: DUMaintenance.cpp:36: Enter PerformDUMaintenance
+2025-11-25T11:34:26.865745-03:00: Error 1060 calling OpenServiceW
+2025-11-25T11:34:26.867748-03:00: Service is not running!
+2025-11-25T11:34:26.867748-03:00: DUMaintenance.cpp:530: Enter SetMURState
+2025-11-25T11:34:26.867748-03:00: DUMaintenance.cpp:606: Enter MeterLFS
+2025-11-25T11:34:26.867748-03:00: FileSystemUtils_Win32.cpp:1192: Error getting version for C:\Users\BAPX.IRUIZ1\Downloads\Malwarebytes_Breach_Remediation_4.3.16.174\Malwarebytes_Breach_Remediation_4.3.16.174\Windows\Remediation\RTPControllerImpl.dll, O sistema não pode encontrar o arquivo especificado.  (0x2)
+2025-11-25T11:34:26.867748-03:00: DUMaintenance.cpp:946: Enter MeterLivePEAMSI
+2025-11-25T11:34:26.867748-03:00: DUMaintenance.cpp:950: Failed to get MBAMService instance
+2025-11-25T11:34:26.867748-03:00: DUMaintenance.cpp:1027: Enter EnableDisableDriverBlock
+2025-11-25T11:34:26.867748-03:00: DUMaintenance.cpp:1150: Enter MeterLiveScriptAMSI
+2025-11-25T11:34:26.867748-03:00: DUMaintenance.cpp:1154: Failed to get MBAMService instance
+2025-11-25T11:34:26.975107-03:00: DUMaintenance.cpp:113: 'ScanControllerImpl.dll' => 3.2.0.1546
+2025-11-25T11:34:26.975107-03:00: DUMaintenance.cpp:113: 'CleanControllerImpl.dll' => 3.2.0.806
+2025-11-25T11:34:26.975107-03:00: DUMaintenance.cpp:113: 'CloudControllerImpl.dll' => 3.2.0.344
+2025-11-25T11:34:26.975107-03:00: AMSIMaintainer.cpp:131: Enter meter 'mshta.exe' monitoring
+2025-11-25T11:34:26.975107-03:00: AMSIMaintainer.cpp:136: Failed to get MBAMService instance
+2025-11-25T11:34:26.975107-03:00: AMSIMaintainer.cpp:131: Enter meter 'w3wp.exe' monitoring
+2025-11-25T11:34:26.975107-03:00: AMSIMaintainer.cpp:136: Failed to get MBAMService instance
+2025-11-25T11:34:26.975107-03:00: AMSIMaintainer.cpp:67: Enter MeterAMSIPhase5
+2025-11-25T11:34:26.975107-03:00: AMSIMaintainer.cpp:72: Failed to get MBAMService instance
+2025-11-25T11:34:26.975107-03:00: AMSIMaintainer.cpp:238: Enter EnableUndetectedPETelemetry
+2025-11-25T11:34:26.975107-03:00: AMSIMaintainer.cpp:243: Failed to get MBAMService instance
+2025-11-25T11:34:26.975107-03:00: ARWBypassMaintainer.cpp:29: Enter MeterARWBypass1
+2025-11-25T11:34:26.975107-03:00: ARWBypassMaintainer.cpp:34: Failed to get MBAMService instance
+2025-11-25T11:34:26.975107-03:00: ARWBypassMaintainer.cpp:56: Enter MeterARWBypass2
+2025-11-25T11:34:26.975107-03:00: ARWBypassMaintainer.cpp:61: Failed to get MBAMService instance
+2025-11-25T11:34:26.975107-03:00: DDSHelperMaintainer.cpp:21: Enter MeterDDSHelper
+2025-11-25T11:34:26.975107-03:00: DDSHelperMaintainer.cpp:26: Failed to get MBAMService instance
+2025-11-25T11:34:26.977117-03:00: All done.
+
+>>> ******** MBUPDATR starting to apply update!! (1.0.105205) -- 2025-11-25T12:11:09-03:00
+2025-11-25T12:11:09.714075-03:00: MBUPDATR version: 3.1.0.561
+2025-11-25T12:11:09.714075-03:00: programPath: C:\Users\BAPX.IRUIZ1\Downloads\Malwarebytes_Breach_Remediation_4.3.16.174\Malwarebytes_Breach_Remediation_4.3.16.174\Windows\Remediation
+2025-11-25T12:11:09.714075-03:00: configPath : C:\Users\BAPX.IRUIZ1\Downloads\Malwarebytes_Breach_Remediation_4.3.16.174\Malwarebytes_Breach_Remediation_4.3.16.174\Windows\Remediation\config\UpdateControllerConfig.json
+2025-11-25T12:11:09.714075-03:00: product code is: unknown
+2025-11-25T12:11:09.714075-03:00: program version: 
+2025-11-25T12:11:09.720751-03:00: current CU ver : 1.0.0
+2025-11-25T12:11:09.720751-03:00: dataDirPath: C:\Users\BAPX.IRUIZ1\Downloads\Malwarebytes_Breach_Remediation_4.3.16.174\Malwarebytes_Breach_Remediation_4.3.16.174\Windows\Remediation
+2025-11-25T12:11:09.720751-03:00: Enter DoDbUpdateMaintenance
+2025-11-25T12:11:09.742829-03:00: Crypto.cpp:1176: 13 certificates already installed
+2025-11-25T12:11:09.754416-03:00: Error 1060 calling OpenServiceW
+2025-11-25T12:11:09.754416-03:00: Service is not running!
+2025-11-25T12:11:09.754416-03:00:  : Error connecting to service
+2025-11-25T12:11:09.754416-03:00: DUMaintenance.cpp:36: Enter PerformDUMaintenance
+2025-11-25T12:11:09.754416-03:00: Error 1060 calling OpenServiceW
+2025-11-25T12:11:09.754942-03:00: Service is not running!
+2025-11-25T12:11:09.754942-03:00: DUMaintenance.cpp:530: Enter SetMURState
+2025-11-25T12:11:09.754942-03:00: DUMaintenance.cpp:606: Enter MeterLFS
+2025-11-25T12:11:09.754942-03:00: FileSystemUtils_Win32.cpp:1192: Error getting version for C:\Users\BAPX.IRUIZ1\Downloads\Malwarebytes_Breach_Remediation_4.3.16.174\Malwarebytes_Breach_Remediation_4.3.16.174\Windows\Remediation\RTPControllerImpl.dll, O sistema não pode encontrar o arquivo especificado.  (0x2)
+2025-11-25T12:11:09.754942-03:00: DUMaintenance.cpp:946: Enter MeterLivePEAMSI
+2025-11-25T12:11:09.754942-03:00: DUMaintenance.cpp:950: Failed to get MBAMService instance
+2025-11-25T12:11:09.754942-03:00: DUMaintenance.cpp:1027: Enter EnableDisableDriverBlock
+2025-11-25T12:11:09.754942-03:00: DUMaintenance.cpp:1150: Enter MeterLiveScriptAMSI
+2025-11-25T12:11:09.754942-03:00: DUMaintenance.cpp:1154: Failed to get MBAMService instance
+2025-11-25T12:11:09.984984-03:00: DUMaintenance.cpp:113: 'ScanControllerImpl.dll' => 3.2.0.1546
+2025-11-25T12:11:10.145280-03:00: DUMaintenance.cpp:113: 'CleanControllerImpl.dll' => 3.2.0.806
+2025-11-25T12:11:10.286521-03:00: DUMaintenance.cpp:113: 'CloudControllerImpl.dll' => 3.2.0.344
+2025-11-25T12:11:10.286521-03:00: AMSIMaintainer.cpp:131: Enter meter 'mshta.exe' monitoring
+2025-11-25T12:11:10.286521-03:00: AMSIMaintainer.cpp:136: Failed to get MBAMService instance
+2025-11-25T12:11:10.286521-03:00: AMSIMaintainer.cpp:131: Enter meter 'w3wp.exe' monitoring
+2025-11-25T12:11:10.286521-03:00: AMSIMaintainer.cpp:136: Failed to get MBAMService instance
+2025-11-25T12:11:10.286521-03:00: AMSIMaintainer.cpp:67: Enter MeterAMSIPhase5
+2025-11-25T12:11:10.286521-03:00: AMSIMaintainer.cpp:72: Failed to get MBAMService instance
+2025-11-25T12:11:10.286521-03:00: AMSIMaintainer.cpp:238: Enter EnableUndetectedPETelemetry
+2025-11-25T12:11:10.286521-03:00: AMSIMaintainer.cpp:243: Failed to get MBAMService instance
+2025-11-25T12:11:10.286521-03:00: ARWBypassMaintainer.cpp:29: Enter MeterARWBypass1
+2025-11-25T12:11:10.286521-03:00: ARWBypassMaintainer.cpp:34: Failed to get MBAMService instance
+2025-11-25T12:11:10.286521-03:00: ARWBypassMaintainer.cpp:56: Enter MeterARWBypass2
+2025-11-25T12:11:10.286521-03:00: ARWBypassMaintainer.cpp:61: Failed to get MBAMService instance
+2025-11-25T12:11:10.286521-03:00: DDSHelperMaintainer.cpp:21: Enter MeterDDSHelper
+2025-11-25T12:11:10.286521-03:00: DDSHelperMaintainer.cpp:26: Failed to get MBAMService instance
+2025-11-25T12:11:10.286521-03:00: All done.
+

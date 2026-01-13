@@ -1,11 +1,12 @@
 from pyftpdlib.handlers import FTPHandler
 from datetime import datetime
+from pathlib import Path
 
 
 class MyHandler(FTPHandler):
     def __init__(self, conn, server, ioloop=None):
         super().__init__(conn, server, ioloop)
-        self.LOG_PATH = r"C:\Users\iruiz1\Desktop\FTP SERVER\Admins\Logs\connections\connections.log"
+        self.LOG_PATH = Path.cwd()
 
 
     def on_connect(self):

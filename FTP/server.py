@@ -8,8 +8,8 @@ class Server:
     def __init__(self) -> None:
         self.db = DataBase()
         self.handler = MyHandler
-        self.host = ... # IPv4
-        self.port = ... # Port
+        self.host = "10.33.243.12"
+        self.port = 2100
         self.running = True
 
 

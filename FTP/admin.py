@@ -2,6 +2,7 @@ from db import DataBase
 from getpass import getpass
 from os import system
 from random import randint
+from pathlib import Path
 
 class Admin:
     def __init__(self) -> None:
@@ -56,7 +57,7 @@ mk_report [Return report containing user informations]
                     self.cmd_user_name = input(f"{admin_user}@ftp~server $ (Insert user first and last name) > ")
                     cmd_user_password = str(randint(1000, 9999))
                     cmd_user_perms = "elraw"
-                    cmd_user_homw_dir = r"C:\Users\iruiz1\Desktop\FTP SERVER\Users"
+                    cmd_user_homw_dir = Path.cwd() / "FTP SERVER" / "Users"
 
                     self.db.insert_user(self.cmd_user_name, cmd_user_password, cmd_user_perms, cmd_user_homw_dir)
 
@@ -65,7 +66,7 @@ mk_report [Return report containing user informations]
                     cmd_admin_name = input(f"{admin_user}@ftp~server $ (Insert user first and last name) > ")
                     cmd_admin_password = str(randint(1000, 9999))
                     cmd_admin_perms = "elradfmw"
-                    cmd_admin_home_dir = r"C:\Users\iruiz1\Desktop\FTP SERVER\Admins"
+                    cmd_admin_home_dir = Path.cwd() / "FTP SERVER" / "Admins"
 
                     self.db.insert_admin(cmd_admin_name, cmd_admin_password, cmd_admin_perms, cmd_admin_home_dir)
 
